@@ -66,13 +66,14 @@ a {
   background-color: #f0f0f0;
   box-shadow: 0px 0px 20px 0px rgba(14, 24, 80, 0.2),
     0px 0px 2px 0px rgba(69, 79, 126, 0.05);
+  overflow-y: auto;
 }
 
 .sidebar-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 20px;
 }
 
 .sidebar-menu .button:first-child {
@@ -104,10 +105,12 @@ a {
 }
 
 .navbar {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .navbar-list {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   padding: 0;
 }
@@ -130,7 +133,7 @@ a {
 .navbar-list__link::before {
   content: "";
   position: absolute;
-  left: -16.5px;
+  left: -20.5px;
   top: 50%;
   transform: translateY(-50%);
   width: 4px;
@@ -151,7 +154,7 @@ a {
 }
 
 .sidebar-footer {
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 20px;
 }
 
