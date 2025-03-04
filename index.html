@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="fixed-container">
+    <aside class="fixed-container">
       <header class="sidebar-menu">
         <button class="button">
           <img src="images/сlose.svg" alt="Иконка 'Закрыть'" />
@@ -18,38 +18,38 @@
           <img src="images/checkstatus.svg" alt="" />
         </button>
       </header>
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li>
-            <a class="navbar-list__link navbar-list__link--active" href=""
+      <nav class="main-nav">
+        <ul class="main-nav__menu">
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link--active" href=""
               >Ремонт техники</a
             >
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Услуги и сервисы</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Услуги и сервисы</a>
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Корпоративным клиентам</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Корпоративным клиентам</a>
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Продавцам техники</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Продавцам техники</a>
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Партнерам</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Партнерам</a>
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Производителям</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Производителям</a>
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Наши сервисные центры</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Наши сервисные центры</a>
           </li>
-          <li>
-            <a class="navbar-list__link" href="">Контакты</a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <footer class="sidebar-footer">
-        <ul class="icon-list">
+      <footer class="sidebar__footer">
+        <ul class="communication-buttons">
           <li>
             <button class="button">
               <img src="images/call.svg" alt="Иконка 'Телефонная трубка'" />
@@ -66,22 +66,26 @@
             </button>
           </li>
         </ul>
-        <p class="sidebar-footer__email">mail@cps.com</p>
-        <p class="sidebar-footer__tel"><b>8 800 890 8900</b></p>
-        <ul class="lang-list">
+        <address class="contact-info">
+          <a class="contact-info__email" href="mailto:mail@cps.com"
+            >mail@cps.com</a
+          ><br />
+          <a class="contact-info__tel" href="tel:88008908900"
+            ><b>8 800 890 8900</b></a
+          >
+        </address>
+        <ul class="language-switcher">
           <li>
-            <button class="button button--active">
-              <p class="lang-list__text">RU</p>
-            </button>
+            <button class="button button--active">RU</button>
           </li>
           <li>
-            <button class="button"><p>EN</p></button>
+            <button class="button">EN</button>
           </li>
           <li>
-            <button class="button"><p>CH</p></button>
+            <button class="button">CH</button>
           </li>
         </ul>
       </footer>
-    </div>
+    </aside>
   </body>
 </html>
